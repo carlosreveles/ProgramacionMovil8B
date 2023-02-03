@@ -1,0 +1,32 @@
+void main() {
+  Map<String, dynamic> usuarios={
+    'id': int ,
+    'nombre': String,
+    'apellido': String,
+    'edad': int,
+    'descripcion': String,
+    //'genero_id': int,
+    //'pasatimepo_id': int,
+    //'estado_id': int
+  };
+  Map<String, dynamic> genero={
+    'id_gen': int ,
+    'hombre': bool,
+    'mujer': bool,
+    'otro': String,
+  };
+  Map<String, dynamic> pasatiempo={
+    'id_pas': int ,
+    'futbol': bool,
+    'caminata': bool,
+    'acampar': bool,
+    'pelis': bool,
+  };
+  Map<String, dynamic> estado={
+    'id_es': int ,
+    'amistad': bool,
+    'relacion_estable': bool,
+    'casula': bool,
+    'papa_mama': bool,
+  };
+}
